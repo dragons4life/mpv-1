@@ -1,3 +1,4 @@
+--binds a hotkey to cycle through available audio devices
 local numdevices = 0
 local current = false
 local currentd = ""
