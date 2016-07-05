@@ -36,7 +36,6 @@ local function cycle_adevice()
 
 		if current then
 			mp.set_property("audio-device",devicenames[i+1])
-			print(devicenames[i+1])
 			print("audio="..devicedesc[i+1])
 			mp.osd_message("audio="..devicedesc[i+1])
 			current = false
